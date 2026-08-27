@@ -73,7 +73,7 @@ KERNEL_RE = re.compile(r'^(linux($|-)|flash-kernel($|-))')
 BORDERLINE_RE = re.compile(r'(-modules$|^nvidia-graphics-drivers)')
 
 APP_NAME = "pe-ppa-package-stats"
-TOOL_VERSION = "1.1"
+TOOL_VERSION = "0.1"
 CSV_DETAILS_NAME = "pe-ppa-package-details_{timestamp}.csv"
 META_NAME = "pe-ppa-package-meta_{timestamp}.json"
 ARCHIVE_NAME = "pe-ppa-package-archive_{timestamp}.json"
