@@ -1,0 +1,37 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# --- Generated scan / report artifacts ---
+# Timestamped outputs written by a scan (kept out of version control).
+pe-ppa-package-details_*.csv
+pe-ppa-package-counts_*.txt
+pe-ppa-package-meta_*.json
+pe-ppa-package-archive_*.json
+
+# Report-phase outputs.
+pe-ppa-package-report_lastquarters.json
+pe-ppa-package-report_lastquarters.txt
+
+# Archived older runs and snapshot tarballs.
+old/
+*.tgz
+*.tar.gz
+
+# Credentials cache (normally under ~/.cache, but never commit if it lands here).
+credentials-*.txt
+
+# --- Editor / OS cruft ---
+.vscode/
+.idea/
+*.swp
+.DS_Store

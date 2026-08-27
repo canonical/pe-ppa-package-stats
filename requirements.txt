@@ -1,0 +1,3 @@
+# Runtime dependencies for pe_ppa_package_stats.py
+# Install with:  pip install -r requirements.txt
+launchpadlib>=1.10

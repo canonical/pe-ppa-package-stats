@@ -1,0 +1,13 @@
+# Development / CI dependencies for pe_ppa_package_stats.py.
+# Install with:  pip install -r dev-requirements.txt
+#
+# Runtime deps live in requirements.txt; these are only needed to run the
+# static-analysis and test checks documented in the README:
+#     python3 -m pyflakes pe_ppa_package_stats.py test_pe_ppa_package_stats.py
+#     python3 -m pylint   pe_ppa_package_stats.py test_pe_ppa_package_stats.py
+#     python3 -m unittest test_pe_ppa_package_stats
+#
+# (unittest is part of the standard library, so it is not listed here.)
+-r requirements.txt
+pyflakes>=3.4
+pylint>=4.0
